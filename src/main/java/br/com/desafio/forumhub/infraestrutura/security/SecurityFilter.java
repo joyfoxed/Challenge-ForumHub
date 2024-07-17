@@ -1,6 +1,5 @@
 package br.com.desafio.forumhub.infraestrutura.security;
 
-
 import br.com.desafio.forumhub.domain.usuario.UsuarioRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

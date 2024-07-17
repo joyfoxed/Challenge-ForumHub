@@ -3,7 +3,6 @@ package br.com.desafio.forumhub.controller;
 import br.com.desafio.forumhub.domain.usuario.DadosAutenticacao;
 import br.com.desafio.forumhub.domain.usuario.Usuario;
 import br.com.desafio.forumhub.infraestrutura.security.DadosTokenJWT;
-import br.com.desafio.forumhub.infraestrutura.security.TokenService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -13,6 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import br.com.desafio.forumhub.infraestrutura.security.TokenService;
 
 @RestController
 @RequestMapping("/login")
